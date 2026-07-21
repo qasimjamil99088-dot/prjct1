@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Order Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body bgcolor="#d7e242">
+         <header class="navbar">
+  <div class="logo">HA Trader</div>
+  <button class="hamburger" id="hamburger-btn" aria-label="Toggle navigation menu">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+  </button>
+  <nav class="nav-menu" id="nav-menu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html">Products</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header><br>     
+<div class="order">
+        <h1><strong>AH Trader Online Store</strong></h1>
+        <p>Order your iPhone Today!</p>
+        </div><br>
+        <div class="container">
+        <div class="card-box">
+            <a href="x.html"><img src="x.png" alt="IPhone X 256GB" class="box-img"></a>
+  <h3 style="text-align: center;">IPhone X 256GB</h3><br>
+  <p style="text-align: center;">IPhone X 256GB - Latest model with advanced features.</p>
+</div>
+<div  class="card-box">
+            <a href="14pro.html"><img src="14pro.png" alt="IPhone 14 pro 256/512GB" class="box-img"></a>
+  <h3 style="text-align: center;">IPhone 14 pro 256/512GB</h3><br>
+  <p style="text-align: center;">IPhone 14 pro 256/512GB - Latest model with advanced features.</p>
+</div>
+<div  class="card-box">
+            <a href="15pro.html"><img src="15pro.png" alt="IPhone 15 pro 512/1024GB" class="box-img"></a>
+  <h3 style="text-align: center;">IPhone 15 pro 512/1024GB</h3><br>
+  <p style="text-align: center;">IPhone 15 pro 512/1024GB - Latest model with advanced features.</p>
+</div>
+</div>
+ <script>
+        const hamburger = document.getElementById('hamburger-btn');
+const navMenu = document.getElementById('nav-menu');
+
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('active');
+  navMenu.classList.toggle('active');
+});
+    </script>
+    </body><br><br><br><br><br><br>
+     <footer>
+        <div class="footer-content">
+            <h3>HA Trader</h3><br>
+            <p>Your trusted source for the latest iPhones and smartphone technology.</p><br>
+            <h2>Contact Us</h2><br>
+            <p>Email: info@hatrader.com</p><br>
+            <p>Phone: +92 300 1234567</p><br>
+            <p>Address: 123 Tech Street, City, Country</p><br>
+             <p><em>&copy; 2024 HA Trader. All rights reserved.</em></p>
+        </div>    
+    </footer>
+</html>

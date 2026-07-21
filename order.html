@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Order Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body bgcolor="#d7e242">
+         <header class="navbar">
+  <div class="logo">HA Trader</div>
+  <button class="hamburger" id="hamburger-btn" aria-label="Toggle navigation menu">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+  </button>
+  <nav class="nav-menu" id="nav-menu">
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="index.html">Products</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  </header><br>
+    <div class="order">
+    <h1>You are going to order iphone! Are you okey with it?</h1>
+    </div>
+    <div class="form">
+    <form action="submit_order.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" required></textarea><br><br>
+        
+        <label for="product">Product:</label>
+        <select id="product" name="product" required>
+            <option value="">Select a product</option>
+            <option value="iphone_x_256gb">IPhone X 256GB</option>
+            <option value="iphone_14_pro_256_512gb">IPhone 14 pro 256/512GB</option>
+            <option value="iphone_15_pro_512_1024gb">IPhone 15 pro 512/1024GB</option>
+        </select><br><br>
+        
+        <input type="submit" value="Submit Order">
+        </form>
+        </div>
+    </body><br><br><br><br><br><br>
+     <footer>
+        <div class="footer-content">
+            <h3>HA Trader</h3><br>
+            <p>Your trusted source for the latest iPhones and smartphone technology.</p><br>
+            <h2>Contact Us</h2><br>
+            <p>Email: info@hatrader.com</p><br>
+            <p>Phone: +92 300 1234567</p><br>
+            <p>Address: 123 Tech Street, City, Country</p><br>
+             <p><em>&copy; 2024 HA Trader. All rights reserved.</em></p>
+        </div>    
+    </footer>
+</html>
